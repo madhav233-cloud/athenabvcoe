@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import Section from "@/components/Section";
-import ImagePlaceholder from "@/components/ImagePlaceholder";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 20 },
@@ -22,9 +21,34 @@ const goals = [
   { id: "G4", text: "To enhance creativity, technical skills, teamwork and strategy making." },
 ];
 
+const gallerySessions = [
+  {
+    year: "Session 2025–26",
+    images: [
+      "/New folder/2025-26/game dev/1.png",
+      "/New folder/2025-26/hacknfrag/1.png",
+    ],
+  },
+  {
+    year: "Session 2024–25",
+    images: [
+      "/New folder/2024-25/bgmi/1.jpg",
+      "/New folder/2024-25/valo/1.jpg",
+    ],
+  },
+  {
+    year: "Session 2023–24",
+    images: [
+      "/New folder/2023-24/bgmi/1.png",
+      "/New folder/2023-24/zenith/1.png",
+    ],
+  },
+];
+
 const About = () => {
   return (
     <div className="pt-16">
+
       {/* Header */}
       <Section>
         <motion.h1
@@ -34,6 +58,7 @@ const About = () => {
         >
           About Athena
         </motion.h1>
+
         <motion.p
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -42,6 +67,7 @@ const About = () => {
         >
           Chapter Head (Faculty Name): <span className="text-secondary">Dr. Suman Yadav</span>
         </motion.p>
+
         <motion.p
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -50,6 +76,7 @@ const About = () => {
         >
           Gaming in this day and age is not only associated with entertainment but has also progressed towards full time careers as competitive gamers, streamers, and game developers. Athena, founded in 2023, aims to provide a platform to students where we host competitive gaming events aimed at challenging abilities of the player and organize seminars and workshops focused towards game development while having fun and entertaining others as well.
         </motion.p>
+
         <motion.p
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -62,9 +89,12 @@ const About = () => {
 
       {/* Goals */}
       <Section>
-        <h2 className="text-foreground mb-12 text-center neon-text-purple">Goals of Athena</h2>
+        <h2 className="text-foreground mb-12 text-center neon-text-purple">
+          Goals of Athena
+        </h2>
+
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          {goals.map((goal, i) => (
+          {goals.map((goal) => (
             <motion.div
               key={goal.id}
               variants={fadeUp}
@@ -73,7 +103,9 @@ const About = () => {
               viewport={{ once: true }}
               className="card-surface p-6 flex gap-4 items-start"
             >
-              <span className="font-display text-2xl font-bold text-primary neon-text-purple shrink-0">{goal.id}</span>
+              <span className="font-display text-2xl font-bold text-primary neon-text-purple shrink-0">
+                {goal.id}
+              </span>
               <p className="text-muted-foreground">{goal.text}</p>
             </motion.div>
           ))}
@@ -83,14 +115,18 @@ const About = () => {
       {/* Technologies */}
       <Section>
         <h2 className="text-foreground mb-12 text-center">Technologies</h2>
+
         <div className="flex flex-wrap justify-center gap-4">
           {techs.map((tech) => (
             <motion.div
               key={tech.name}
               whileHover={{ scale: 1.1 }}
               className={`card-surface px-6 py-3 font-display text-sm uppercase tracking-wider ${
-                tech.color === "primary" ? "text-primary" :
-                tech.color === "secondary" ? "text-secondary" : "text-accent"
+                tech.color === "primary"
+                  ? "text-primary"
+                  : tech.color === "secondary"
+                  ? "text-secondary"
+                  : "text-accent"
               }`}
             >
               {tech.name}
@@ -99,15 +135,34 @@ const About = () => {
         </div>
       </Section>
 
-      {/* Photos placeholder */}
+      {/* Gallery */}
       <Section>
-        <h2 className="text-foreground mb-8 text-center">Gallery</h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          {[1, 2, 3, 4, 5, 6].map((i) => (
-            <ImagePlaceholder key={i} aspect="4/3" label={`PHOTO ${i}`} className="rounded-lg" />
-          ))}
-        </div>
+        <h2 className="text-foreground mb-12 text-center">Gallery</h2>
+
+        {gallerySessions.map((session) => (
+          <div key={session.year} className="mb-10">
+            <h3 className="text-xl text-secondary mb-4 text-center">
+              {session.year}
+            </h3>
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-4xl mx-auto">
+              {session.images.map((img, i) => (
+                <motion.img
+                  key={i}
+                  src={img}
+                  alt={session.year}
+                  loading="lazy"
+                  variants={fadeUp}
+                  initial="hidden"
+                  whileInView="visible"
+                  className="w-full aspect-video object-cover rounded-lg card-surface"
+                />
+              ))}
+            </div>
+          </div>
+        ))}
       </Section>
+
     </div>
   );
 };
