@@ -110,9 +110,7 @@ const Home = () => {
       <Section>
         <div className="flex items-center justify-between mb-12">
           <h2 className="text-foreground">Upcoming Events</h2>
-          <Link to="/events" className="font-display text-xs uppercase tracking-wider text-secondary hover:text-primary transition-colors">
-            View All →
-          </Link>
+         
         </div>
         <motion.div
           variants={stagger}
