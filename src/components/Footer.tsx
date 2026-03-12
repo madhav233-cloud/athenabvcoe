@@ -17,7 +17,7 @@ const Footer = () => {
               <a href="/about" className="hover:text-primary transition-colors">About</a>
               <a href="/events" className="hover:text-primary transition-colors">Events</a>
               <a href="/join" className="hover:text-primary transition-colors">Join Us</a>
-              <a href="/blog" className="hover:text-primary transition-colors">Blog</a>
+              
             </div>
           </div>
         </div>
@@ -25,8 +25,8 @@ const Footer = () => {
           © {new Date().getFullYear()} Game Development Society. All rights reserved.
         </div>
       </div>
-    </footer>
-  );
+    </footer>);
+
 };
 
 export default Footer;
