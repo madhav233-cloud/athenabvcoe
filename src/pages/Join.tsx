@@ -52,7 +52,7 @@ const Join = () => {
 
           {/* Discord QR */}
           <div className="card-surface p-6 text-center">
-            <h3 className="text-foreground mb-4">Discord</h3>
+            <h3 className="text-foreground mb-4">Whatsapp</h3>
             <img
               src="/qr/wtp.png"
               alt="Discord QR"
