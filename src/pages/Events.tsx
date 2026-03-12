@@ -16,11 +16,10 @@ const sessions = [
     year: "Session 2025–26",
     events: [
       {
-        title: "Game Development Session by Mr Satyajit and Mr. Vivek Jha",
+        title: "Game Development Session by Mr. Pranoy Chatterjee",
         date: "13 October 2025",
-       desc: `The Game Development Webinars were held on 3rd May 2025 and 4th May 2025.
-On Day 1, webinar was conducted on Game Development. Mr Satyajit was invited to be the speaker for the session. 
-On Day 2, the second webinar was conducted on Game Development by Mr. Vivek Jha. 
+       desc: `The Game Development Webinar was held on 13 October 2025 where Mr. Pranoy Chatterjee was the speaker , founder and CEO of Unquittable Studios .
+
 Participants gained foundational knowledge of game engines such as Unity and Unreal Engine, along with insights into level design, storytelling, character creation, and coding concepts.
 The interactive discussion enhanced creativity and motivated students to explore game development further.`,
         images: [
@@ -44,9 +43,14 @@ The interactive discussion enhanced creativity and motivated students to explore
     year: "Session 2024–25",
     events: [
       {
-        title: "Game Development Webinar",
+        title: "Game Development Webinar by Mr Satyajit and Mr. Vivek Jha",
         date: "3rd & 4th May 2025",
-        desc: "To foster a spirit of teamwork, strategic thinking, and healthy competition among students while promoting gaming as a legitimate form of skill-based engagement and building a sense of community through an enjoyable and inclusive esports experience.",
+       desc: `The Game Development Webinars were held on 3rd May 2025 and 4th May 2025.
+On Day 1, a webinar was conducted on Game Development. Mr. Satyajit was invited as the speaker for the session. The participants enquired about his experience in the gaming industry.
+
+On Day 2, the second webinar was conducted on Game Development. The speaker for the session was Mr. Vivek Jha. The participants enquired about the basics of Game Development.
+
+To foster a spirit of teamwork, strategic thinking, and healthy competition among students while promoting gaming as a legitimate form of skill-based engagement and building a sense of community through an enjoyable and inclusive esports experience.`,
         images: [
           "/New folder/2024-25/game dev webinar/1.jpg",
           "/New folder/2024-25/game dev webinar/2.jpg"
