@@ -13,9 +13,9 @@ const fadeUp = {
 };
 
 const maintainers = [
-{ name: "Marcus Johnson", role: "Lead Developer", github: "https://github.com" },
-{ name: "Alex Chen", role: "Frontend Engineer", github: "https://github.com" },
-{ name: "Priya Patel", role: "UI/UX Designer", github: "https://github.com" }];
+{ name: "ARYAN CHAWLA", role: "GAME LEAD" },
+{ name: "AKSHAT SHARMA", role: "GAME LEAD" },
+];
 
 
 const Maintainers = () => {
