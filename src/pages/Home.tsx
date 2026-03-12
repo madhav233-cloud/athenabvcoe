@@ -122,7 +122,7 @@ const Home = () => {
           className="grid grid-cols-1 md:grid-cols-3 gap-6"
         >
           {[
-            { title: "Spring Game Jam 2026", date: "Mar 28–30, 2026", desc: "48-hour game jam. Theme revealed at kickoff." }
+            { title: "GAME DEVELOPMENT 2026", date: "COMING SOON in APRIL 2026", desc: "Showcase your game development skills at the stage" }
           ].map((event) => (
             <motion.div key={event.title} variants={fadeUp} whileHover={{ y: -4, scale: 1.02 }} className="card-surface overflow-hidden group cursor-pointer">
               <ImagePlaceholder aspect="16/9" label="EVENT IMAGE" />
