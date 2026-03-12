@@ -124,7 +124,7 @@ const Home = () => {
           ].map((event) => (
             <motion.div key={event.title} variants={fadeUp} whileHover={{ y: -4, scale: 1.02 }} className="card-surface overflow-hidden group cursor-pointer">
              <img 
-  src=src={eventImage}
+  src={eventImage}
   alt="Event Image"
   className="w-full aspect-video object-cover rounded-lg"
 />
