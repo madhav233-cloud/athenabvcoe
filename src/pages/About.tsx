@@ -15,6 +15,13 @@ const techs = [
   { name: "C++", color: "secondary" },
 ];
 
+const goals = [
+  { id: "G1", text: "To create awareness and interest in gaming and game development among students." },
+  { id: "G2", text: "To provide opportunities for students to enhance their skills in game development areas and game experience by working on various projects." },
+  { id: "G3", text: "To provide an opportunity to showcase their talents in exhibitions, competitions, and gaming tournaments." },
+  { id: "G4", text: "To enhance creativity, technical skills, teamwork and strategy making." },
+];
+
 const About = () => {
   return (
     <div className="pt-16">
@@ -25,46 +32,49 @@ const About = () => {
           animate={{ opacity: 1, y: 0 }}
           className="text-foreground neon-text-purple mb-6"
         >
-          About Us
+          About Athena
         </motion.h1>
         <motion.p
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.2 }}
-          className="text-muted-foreground max-w-2xl text-lg"
+          className="text-muted-foreground text-sm font-display uppercase tracking-wider mb-2"
         >
-          We are a community of game developers, designers, and artists passionate about building interactive experiences.
+          Chapter Head (Faculty Name): <span className="text-secondary">Dr. Suman Yadav</span>
+        </motion.p>
+        <motion.p
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.3 }}
+          className="text-muted-foreground max-w-3xl text-lg"
+        >
+          Gaming in this day and age is not only associated with entertainment but has also progressed towards full time careers as competitive gamers, streamers, and game developers. Athena, founded in 2023, aims to provide a platform to students where we host competitive gaming events aimed at challenging abilities of the player and organize seminars and workshops focused towards game development while having fun and entertaining others as well.
+        </motion.p>
+        <motion.p
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.4 }}
+          className="text-muted-foreground max-w-3xl text-base mt-4"
+        >
+          Game development is a vast industry. A game developer could be a programmer, a sound designer, an artist, a designer, or many other roles available in the industry. We work on real time game development projects as well.
         </motion.p>
       </Section>
 
-      {/* Mission & Vision */}
+      {/* Goals */}
       <Section>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <motion.div variants={fadeUp} initial="hidden" whileInView="visible" viewport={{ once: true }} className="card-surface p-8">
-            <h2 className="text-primary mb-4">Our Mission</h2>
-            <p className="text-muted-foreground">
-              To provide a collaborative environment where students can learn game development, share knowledge, and build projects that push creative boundaries.
-            </p>
-          </motion.div>
-          <motion.div variants={fadeUp} initial="hidden" whileInView="visible" viewport={{ once: true }} className="card-surface p-8">
-            <h2 className="text-secondary mb-4">Our Vision</h2>
-            <p className="text-muted-foreground">
-              To be the leading student-run game development community, producing skilled developers and memorable games that showcase our university's talent.
-            </p>
-          </motion.div>
-        </div>
-      </Section>
-
-      {/* What We Teach */}
-      <Section>
-        <h2 className="text-foreground mb-12 text-center">What We Teach</h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {["Game Design Fundamentals", "3D Modeling & Animation", "Programming & Architecture"].map((topic) => (
-            <motion.div key={topic} whileHover={{ y: -4 }} className="card-surface p-6 text-center">
-              <h3 className="text-foreground mb-2">{topic}</h3>
-              <p className="text-muted-foreground text-sm">
-                Hands-on workshops and mentorship from experienced members.
-              </p>
+        <h2 className="text-foreground mb-12 text-center neon-text-purple">Goals of Athena</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          {goals.map((goal, i) => (
+            <motion.div
+              key={goal.id}
+              variants={fadeUp}
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true }}
+              className="card-surface p-6 flex gap-4 items-start"
+            >
+              <span className="font-display text-2xl font-bold text-primary neon-text-purple shrink-0">{goal.id}</span>
+              <p className="text-muted-foreground">{goal.text}</p>
             </motion.div>
           ))}
         </div>
