@@ -15,7 +15,7 @@ const fadeUp = {
 const members = [
 { name: "TANPRAGYA BHARDWAJ", role: "President", bio: "" },
 { name: "MADHAV RAJESH MATHUR", role: "Vice President", bio: "" },
-{ name: "DHRUV GUPTA", role: "Technical Lead", bio: "" },
+{ name: "DHRUV GUPTA", role: "Vice President", bio: "" },
 { name: "YASH GOYAL", role: "General Secretary", bio: "" },
 { name: "JANMENJAY JENA", role: "Joint Secretary", bio: "" },
 { name: "RUDRA LAKHRA", role: "Treasurer", bio: "" }];
