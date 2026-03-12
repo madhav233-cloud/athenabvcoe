@@ -65,17 +65,17 @@ const Team = () => {
               <h3 className="text-foreground mb-1">{member.name}</h3>
               <p className="text-primary font-display text-xs uppercase tracking-wider mb-3">{member.role}</p>
               <p className="text-muted-foreground text-sm mb-4">{member.bio}</p>
-              <div className="flex justify-center gap-3">
-                <a href="#" className="text-muted-foreground hover:text-secondary transition-colors" aria-label="GitHub">
-                  <Github size={16} />
-                </a>
-                <a href="#" className="text-muted-foreground hover:text-secondary transition-colors" aria-label="LinkedIn">
-                  <Linkedin size={16} />
-                </a>
-                <a href="#" className="text-muted-foreground hover:text-secondary transition-colors" aria-label="Twitter">
-                  <Twitter size={16} />
-                </a>
-              </div>
+              
+
+
+
+
+
+
+
+
+
+            
             </motion.div>
           )}
         </motion.div>
