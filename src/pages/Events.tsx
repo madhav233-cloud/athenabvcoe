@@ -16,14 +16,15 @@ const sessions = [
     year: "Session 2025–26",
     events: [
       {
-        title: "Game Development Bootcamp",
-        date: "March 2026",
-        desc: "Students explored the fundamentals of game development including game mechanics, design principles, and teamwork. The event focused on building practical skills while encouraging creativity and experimentation.",
+        title: "Game Development Session",
+        date: "13 October 2025",
+        desc: "The session provided students with valuable exposure to the game development ecosystem. Participants gained foundational knowledge of game engines such as Unity and Unreal Engine, along with insights into level design, storytelling, character creation, and basic coding concepts. The live demonstrations helped students understand how logic and creativity merge to create interactive virtual environments. The interactive discussion and idea-sharing segment enhanced critical thinking, creativity, and confidence, motivating many students to explore
+game design and development further as a technical skill and potential career option.",
         images: ["/images/2025/event1.jpg", "/images/2025/event2.jpg"]
       },
       {
-        title: "Game Jam 2026",
-        date: "April 2026",
+        title: "HacnFrag : BGMI",
+        date: " 7th & 8th October 2025 ",
         desc: "Participants worked in teams to build complete playable games within a limited time. The challenge promoted rapid prototyping, innovative thinking, and collaborative development.",
         images: ["/images/2025/event3.jpg", "/images/2025/event4.jpg"]
       }
@@ -34,21 +35,24 @@ const sessions = [
     year: "Session 2024–25",
     events: [
       {
-        title: "Unity Workshop",
-        date: "October 2024",
-        desc: "A hands-on workshop introducing students to Unity game development. Participants learned scripting basics, scene building, and interactive gameplay design.",
+        title: "Game Development Webinar",
+        date: "3rd & 4th May 2025",
+        desc: "To foster a spirit of teamwork, strategic thinking, and healthy competition among students while promoting gaming as a legitimate form of skill-based engagement and building a sense of community through an enjoyable and inclusive esports experience.",
         images: ["/images/2024/event1.jpg", "/images/2024/event2.jpg"]
       },
       {
-        title: "Game Art Session",
-        date: "January 2025",
-        desc: "Students explored digital art creation for games, including asset design, texturing, and animation workflows using Blender and other creative tools.",
+        title: "Valorant Tournament",
+        date: "16th & 17th October 202",
+        desc: "On Day 1, 16 teams competed in 8 brackets, with each match determining a winner to progress to the next round. By the end of the day, 8 teams qualified for Day 2. 
+On Day 2, the 8 qualified teams faced off in intense matches, culminating in the finals, where the top two teams battled for the championship title. 
+The entire tournament was broadcast live on the Athena YouTube channel, allowing a wider audience to enjoy the action-packed matches and cheer for their favorite teams. The event showcased thrilling gameplay, competitive spirit, and an electrifying atmosphere. 
+",
         images: ["/images/2024/event3.jpg", "/images/2024/event4.jpg"]
       },
       {
-        title: "Mini Game Jam",
-        date: "February 2025",
-        desc: "A fast-paced mini game jam where teams built small games based on a surprise theme. It encouraged quick thinking and teamwork.",
+        title: "BGMI Tournament",
+        date: "20th September 2024",
+        desc: "On 20th September 2024, we hosted an exciting BGMI (Battlegrounds Mobile India) tournament , where students showcased their skills in a day of intense and thrilling competition. The top teams battled fiercely, with the best taking home a well-deserved prize pool. The event was a huge success, bringing the college community together in a spirit of camaraderie and gaming excitement.",
         images: ["/images/2024/event5.jpg", "/images/2024/event6.jpg"]
       }
     ]
@@ -58,27 +62,37 @@ const sessions = [
     year: "Session 2023–24",
     events: [
       {
-        title: "Introduction to Game Development",
-        date: "September 2023",
-        desc: "An introductory event designed to familiarize students with the basics of game development, tools, and the workflow of creating interactive experiences.",
+        title: "WebWeave",
+        date: "5th March 2024",
+        desc: "The goal of the UI/UX competition, held with Campus Blocks and Nidus, was to give students
+a chance to flex their creativity and design skills while tackling real-world challenges in user experience.",
         images: ["/images/2023/event1.jpg", "/images/2023/event2.jpg"]
       },
       {
-        title: "Level Design Workshop",
-        date: "November 2023",
-        desc: "Students learned how to design engaging game environments, focusing on layout planning, player experience, and visual storytelling.",
+        title: "Zenith",
+        date: "6th March 2024",
+        desc: "Athena organized a gaming tournament 'Zenith' featuring Tekken, FIFA, and
+BGMI. Students showcased their skills in a thrilling competition filled with excitement and camaraderie.
+After intense matches, the top players were awarded a prize pool, celebrating their achievements. The
+event was a huge success, bringing together the college community for a memorable day of gaming and
+friendly rivalry.",
         images: ["/images/2023/event3.jpg", "/images/2023/event4.jpg"]
       },
       {
-        title: "Blender Training",
-        date: "January 2024",
-        desc: "A session focused on 3D modeling and asset creation using Blender. Participants practiced creating models suitable for game environments.",
+        title: "Game Development and WEB3 Seminar",
+        date: "14 February 2024",
+        desc: "The seminar introduced attendees to game development basics, covering design
+principles and programming, with practical exercises to inspire creativity and explore career opportunities
+in the gaming industry.",
         images: ["/images/2023/event5.jpg", "/images/2023/event6.jpg"]
       },
       {
-        title: "Annual Game Showcase",
-        date: "March 2024",
-        desc: "Students presented the games they developed throughout the semester. The showcase highlighted creativity, technical growth, and teamwork.",
+        title: "BGMI Tournament",
+        date: "11 October 2023",
+        desc: "The BGMI tournament in our college brought students together for a competitive
+and engaging gaming experience. Teams showcased their strategic skills, fostering teamwork and
+community spirit. The event attracted significant participation and excitement, highlighting the growing
+interest in esports while strengthening the bond between students through their shared passion for gaming.",
         images: ["/images/2023/event7.jpg", "/images/2023/event8.jpg"]
       }
     ]
