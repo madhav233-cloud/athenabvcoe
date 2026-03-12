@@ -59,8 +59,8 @@ const Home = () => {
                 transition={{ delay: 0.6 }}
                 className="flex flex-wrap gap-4"
               >
-                <Link to="/join">
-                  <NeonButton>Join the Society</NeonButton>
+                <Link to="/about#gallery">
+                  <NeonButton>View Gallery</NeonButton>
                 </Link>
                 <Link to="/events">
                   <NeonButton variant="secondary">Explore Events</NeonButton>
