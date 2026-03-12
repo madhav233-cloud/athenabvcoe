@@ -13,12 +13,12 @@ const fadeUp = {
 };
 
 const members = [
-{ name: "Alex Chen", role: "President", bio: "Passionate about game design and real-time rendering." },
-{ name: "Sarah Kim", role: "Vice President", bio: "Specializes in narrative design and Unity development." },
-{ name: "Marcus Johnson", role: "Technical Lead", bio: "C++ enthusiast and Unreal Engine expert." },
-{ name: "Priya Patel", role: "Design Lead", bio: "3D artist and Blender wizard with a love for stylized art." },
-{ name: "Jake Williams", role: "Event Coordinator", bio: "Organizes game jams and community events." },
-{ name: "Mia Rodriguez", role: "Community Manager", bio: "Keeps the community engaged and growing." }];
+{ name: "TANPRAGYA BHARDWAJ", role: "President", bio: "" },
+{ name: "Sarah Kim", role: "Vice President", bio: "" },
+{ name: "Marcus Johnson", role: "Technical Lead", bio: "" },
+{ name: "Priya Patel", role: "Design Lead", bio: "" },
+{ name: "Jake Williams", role: "Event Coordinator", bio: "" },
+{ name: "Mia Rodriguez", role: "Community Manager", bio: "" }];
 
 
 const Team = () => {
