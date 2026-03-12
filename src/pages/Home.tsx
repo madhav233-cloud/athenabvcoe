@@ -126,7 +126,7 @@ const Home = () => {
           ].map((event) => (
             <motion.div key={event.title} variants={fadeUp} whileHover={{ y: -4, scale: 1.02 }} className="card-surface overflow-hidden group cursor-pointer">
              <img 
-  src="" 
+  src="src/assets/game-dev-isometric-concept-education-of-creation-3d-design-of-location-or-level-computer.webp" 
   alt="Event Image"
   className="w-full aspect-video object-cover rounded-lg"
 />
