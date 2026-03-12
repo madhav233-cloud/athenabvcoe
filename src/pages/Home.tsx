@@ -124,7 +124,7 @@ const Home = () => {
           {[
             { title: "Spring Game Jam 2026", date: "Mar 28–30, 2026", desc: "48-hour game jam. Theme revealed at kickoff." },
             { title: "Unity Masterclass", date: "Apr 5, 2026", desc: "Deep dive into Unity's new rendering pipeline." },
-            { title: "Industry Speaker Night", date: "Apr 12, 2026", desc: "Guest speaker from a AAA studio." },
+            { title: "Game Dev Hackathon 2026", date: "Coming Soon", desc: "A hackathon focused on building innovative games." },
           ].map((event) => (
             <motion.div key={event.title} variants={fadeUp} whileHover={{ y: -4, scale: 1.02 }} className="card-surface overflow-hidden group cursor-pointer">
               <ImagePlaceholder aspect="16/9" label="EVENT IMAGE" />
