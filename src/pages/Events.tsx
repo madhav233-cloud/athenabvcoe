@@ -20,8 +20,8 @@ const sessions = [
         date: "13 October 2025",
         desc: "The session provided students with valuable exposure to the game development ecosystem. Participants gained foundational knowledge of game engines such as Unity and Unreal Engine, along with insights into level design, storytelling, character creation, and basic coding concepts. The live demonstrations helped students understand how logic and creativity merge to create interactive virtual environments. The interactive discussion and idea-sharing segment enhanced critical thinking, creativity, and confidence, motivating many students to explore game design and development further as a technical skill and potential career option.",
         images: [
-          "/New folder/2025-26/game dev/1.jpg",
-          "/New folder/2025-26/game dev/2.jpg"
+          "/New folder/2025-26/game dev/1.png",
+          "/New folder/2025-26/game dev/2.png"
         ]
       },
       {
@@ -29,8 +29,8 @@ const sessions = [
         date: "7th & 8th October 2025",
         desc: "Participants worked in teams to build complete playable games within a limited time. The challenge promoted rapid prototyping, innovative thinking, and collaborative development.",
         images: [
-          "/New folder/2025-26/hacknfrag/1.jpg",
-          "/New folder/2025-26/hacknfrag/2.jpg"
+          "/New folder/2025-26/hacknfrag/1.png",
+          "/New folder/2025-26/hacknfrag/2.png"
         ]
       }
     ]
@@ -77,8 +77,8 @@ const sessions = [
         date: "5th March 2024",
         desc: "The goal of the UI/UX competition, held with Campus Blocks and Nidus, was to give students a chance to flex their creativity and design skills while tackling real-world challenges in user experience.",
         images: [
-          "/New folder/2023-24/webwieve/1.jpg",
-          "/New folder/2023-24/webwieve/2.jpg"
+          "/New folder/2023-24/webwieve/1.png",
+          "/New folder/2023-24/webwieve/2.png"
         ]
       },
       {
@@ -86,8 +86,8 @@ const sessions = [
         date: "6th March 2024",
         desc: "Athena organized a gaming tournament 'Zenith' featuring Tekken, FIFA, and BGMI. Students showcased their skills in a thrilling competition filled with excitement and camaraderie.",
         images: [
-          "/New folder/2023-24/zenith/1.jpg",
-          "/New folder/2023-24/zenith/2.jpg"
+          "/New folder/2023-24/zenith/1.png",
+          "/New folder/2023-24/zenith/2.png"
         ]
       },
       {
@@ -95,8 +95,8 @@ const sessions = [
         date: "14 February 2024",
         desc: "The seminar introduced attendees to game development basics, covering design principles and programming, with practical exercises to inspire creativity and explore career opportunities in the gaming industry.",
         images: [
-          "/New folder/2023-24/seminar/1.jpg",
-          "/New folder/2023-24/seminar/2.jpg"
+          "/New folder/2023-24/seminar/1.png",
+          "/New folder/2023-24/seminar/2.png"
         ]
       },
       {
@@ -104,8 +104,8 @@ const sessions = [
         date: "11 October 2023",
         desc: "The BGMI tournament in our college brought students together for a competitive and engaging gaming experience. Teams showcased their strategic skills, fostering teamwork and community spirit.",
         images: [
-          "/New folder/2023-24/bgmi/1.jpg",
-          "/New folder/2023-24/bgmi/2.jpg"
+          "/New folder/2023-24/bgmi/1.png",
+          "/New folder/2023-24/bgmi/2.png"
         ]
       }
     ]
