@@ -20,8 +20,9 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 border-b border-border bg-background/80 backdrop-blur-md">
       <div className="section-container flex items-center justify-between h-16">
-        <Link to="/" className="font-display text-lg font-bold tracking-widest uppercase text-primary neon-text-purple">
-          GDS
+        <Link to="/" className="flex items-center gap-2">
+          <img src={athenaLogo} alt="Athena Logo" className="h-10 w-10 rounded object-cover" />
+          <span className="font-display text-lg font-bold tracking-widest uppercase text-primary neon-text-purple">Athena</span>
         </Link>
 
         {/* Desktop */}

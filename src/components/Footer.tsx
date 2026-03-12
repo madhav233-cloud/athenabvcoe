@@ -6,9 +6,9 @@ const Footer = () => {
       <div className="section-container">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
-            <h3 className="text-primary neon-text-purple mb-3">GDS</h3>
+            <h3 className="text-primary neon-text-purple mb-3">Athena</h3>
             <p className="text-muted-foreground text-sm">
-              Game Development Society — Building games, learning technology, creating experiences.
+              Athena — "We don't die, we respawn." Building games, learning technology, creating experiences.
             </p>
           </div>
           <div>

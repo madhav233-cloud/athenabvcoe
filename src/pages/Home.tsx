@@ -73,7 +73,7 @@ const Home = () => {
               transition={{ delay: 0.4, duration: 0.6 }}
               className="lg:col-span-5"
             >
-              <ImagePlaceholder aspect="4/3" label="LOGO / BANNER" className="rounded-lg" />
+              <img src={athenaLogo} alt="Athena - Game Development Society" className="rounded-lg w-full object-cover" style={{ aspectRatio: "4/3" }} />
             </motion.div>
           </div>
         </div>
