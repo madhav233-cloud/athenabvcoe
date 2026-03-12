@@ -1,4 +1,4 @@
-import { Github, Twitter, Mail } from "lucide-react";
+
 
 const Footer = () => {
   return (

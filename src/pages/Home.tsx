@@ -138,48 +138,6 @@ const Home = () => {
         </motion.div>
       </Section>
 
-      {/* Featured Projects */}
-      <Section>
-        <h2 className="text-foreground mb-12 text-center">Featured Projects</h2>
-        <motion.div
-          variants={stagger}
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true }}
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
-        >
-          {["Project Alpha", "Neon Runner", "Void Breach"].map((name) => (
-            <motion.div key={name} variants={fadeUp} whileHover={{ y: -4 }} className="card-surface overflow-hidden">
-              <ImagePlaceholder aspect="16/9" label="GAME SCREENSHOT" />
-              <div className="p-5">
-                <h3 className="text-foreground mb-1">{name}</h3>
-                <p className="text-muted-foreground text-sm">A student-built game created during our semester jam.</p>
-              </div>
-            </motion.div>
-          ))}
-        </motion.div>
-      </Section>
-
-      {/* Community Highlights */}
-      <Section>
-        <h2 className="text-foreground mb-4 text-center">Community Highlights</h2>
-        <p className="text-muted-foreground text-center max-w-2xl mx-auto mb-12">
-          What our members have accomplished together.
-        </p>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
-          {[
-            { stat: "120+", label: "Members" },
-            { stat: "25+", label: "Games Shipped" },
-            { stat: "40+", label: "Events Hosted" },
-            { stat: "8", label: "Semesters Running" },
-          ].map((item) => (
-            <motion.div key={item.label} whileHover={{ scale: 1.05 }} className="card-surface p-6">
-              <p className="font-display text-3xl font-bold text-primary neon-text-purple">{item.stat}</p>
-              <p className="text-muted-foreground text-sm mt-1">{item.label}</p>
-            </motion.div>
-          ))}
-        </div>
-      </Section>
     </div>
   );
 };
