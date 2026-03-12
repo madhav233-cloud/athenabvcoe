@@ -11,7 +11,7 @@ const Footer = () => {
           <div>
             <h3 className="text-primary neon-text-purple mb-3">Athena</h3>
             <p className="text-muted-foreground text-sm">
-              Athena — "We don't die, we respawn." Building games, learning technology, creating experiences.
+              Athena — "We don't die, we respawn." Building games, learning technology, creating experiences. 
             </p>
           </div>
 
