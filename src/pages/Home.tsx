@@ -35,7 +35,7 @@ const Home = () => {
                 transition={{ delay: 0.2 }}
                 className="font-display text-sm uppercase tracking-widest text-secondary mb-4"
               >
-                University Game Dev Club
+                Game Development Society
               </motion.p>
               <motion.h1
                 initial={{ opacity: 0, y: 30 }}
