@@ -23,21 +23,21 @@ const goals = [
 
 const gallerySessions = [
   {
-    year: "Session 2025–26",
+    
     images: [
       "/New folder/2025-26/game dev/1.png",
       "/New folder/2025-26/hacknfrag/1.png",
     ],
   },
   {
-    year: "Session 2024–25",
+    
     images: [
       "/New folder/2024-25/bgmi/1.jpg",
       "/New folder/2024-25/valo/1.jpg",
     ],
   },
   {
-    year: "Session 2023–24",
+    
     images: [
       "/New folder/2023-24/bgmi/1.png",
       "/New folder/2023-24/zenith/1.png",
