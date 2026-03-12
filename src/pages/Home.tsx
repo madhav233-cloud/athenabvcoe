@@ -4,6 +4,7 @@ import Section from "@/components/Section";
 import NeonButton from "@/components/NeonButton";
 import ImagePlaceholder from "@/components/ImagePlaceholder";
 import { Gamepad2, Code, Users, Calendar } from "lucide-react";
+import athenaLogo from "@/assets/athena-logo.jpg";
 
 const stagger = {
   hidden: {},
