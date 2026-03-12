@@ -18,10 +18,11 @@ const sessions = [
       {
         title: "Game Development Session by Mr Satyajit and Mr. Vivek Jha",
         date: "13 October 2025",
-        desc: "The Game Development Webinars were held on 3rd May 2025 and 4th May 2025 .
-On Day 1, webinar was conducted on Game Development . Mr Satyajit was invited to be the speaker for the session . The participants enquired about his experience in the gaming industry 
-On Day 2, 2nd webinar was conducted on Game Development . The speaker of the session was Mr. Vivek Jha . The participants enquired about the basics of Game Development .
- Participants gained foundational knowledge of game engines such as Unity and Unreal Engine, along with insights into level design, storytelling, character creation, and basic coding concepts. The live demonstrations helped students understand how logic and creativity merge to create interactive virtual environments. The interactive discussion and idea-sharing segment enhanced critical thinking, creativity, and confidence, motivating many students to explore game design and development further as a technical skill and potential career option.",
+       desc: `The Game Development Webinars were held on 3rd May 2025 and 4th May 2025.
+On Day 1, webinar was conducted on Game Development. Mr Satyajit was invited to be the speaker for the session. 
+On Day 2, the second webinar was conducted on Game Development by Mr. Vivek Jha. 
+Participants gained foundational knowledge of game engines such as Unity and Unreal Engine, along with insights into level design, storytelling, character creation, and coding concepts.
+The interactive discussion enhanced creativity and motivated students to explore game development further.`,
         images: [
           "/New folder/2025-26/game dev/1.png",
           "/New folder/2025-26/game dev/2.png"
