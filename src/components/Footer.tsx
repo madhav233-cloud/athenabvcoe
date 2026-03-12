@@ -20,21 +20,6 @@ const Footer = () => {
               <a href="/blog" className="hover:text-primary transition-colors">Blog</a>
             </div>
           </div>
-          <div>
-            <h4 className="font-display text-sm uppercase tracking-wider text-foreground mb-3">Connect</h4>
-            <div className="flex gap-4">
-              <a href="#" className="text-muted-foreground hover:text-secondary transition-colors" aria-label="GitHub">
-                <Github size={20} />
-              </a>
-              <a href="#" className="text-muted-foreground hover:text-secondary transition-colors" aria-label="Twitter">
-                <Twitter size={20} />
-              </a>
-              <a href="mailto:gds@university.edu" className="text-muted-foreground hover:text-secondary transition-colors" aria-label="Email">
-                <Mail size={20} />
-              </a>
-            </div>
-            <p className="text-muted-foreground text-xs mt-4">gds@university.edu</p>
-          </div>
         </div>
         <div className="border-t border-border mt-8 pt-8 text-center text-xs text-muted-foreground">
           © {new Date().getFullYear()} Game Development Society. All rights reserved.
