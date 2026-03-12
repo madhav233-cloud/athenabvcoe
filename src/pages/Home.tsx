@@ -5,7 +5,7 @@ import NeonButton from "@/components/NeonButton";
 import ImagePlaceholder from "@/components/ImagePlaceholder";
 import { Gamepad2, Code, Users, Calendar } from "lucide-react";
 import athenaLogo from "@/assets/athena-logo.jpg";
-
+import eventImage from "@/assets/game-dev-isometric-concept-education-of-creation-3d-design-of-location-or-level-computer.webp";
 const stagger = {
   hidden: {},
   visible: { transition: { staggerChildren: 0.08 } },
@@ -124,7 +124,7 @@ const Home = () => {
           ].map((event) => (
             <motion.div key={event.title} variants={fadeUp} whileHover={{ y: -4, scale: 1.02 }} className="card-surface overflow-hidden group cursor-pointer">
              <img 
-  src="src/assets/game-dev-isometric-concept-education-of-creation-3d-design-of-location-or-level-computer.webp" 
+  src=src={eventImage}
   alt="Event Image"
   className="w-full aspect-video object-cover rounded-lg"
 />
