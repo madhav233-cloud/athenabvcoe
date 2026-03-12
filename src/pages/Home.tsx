@@ -43,7 +43,7 @@ const Home = () => {
                 transition={{ delay: 0.3, duration: 0.6 }}
                 className="text-foreground mb-6 neon-text-purple"
               >
-                Game Development<br />Society
+                ATHENA<br />Game Development Society
               </motion.h1>
               <motion.p
                 initial={{ opacity: 0 }}
