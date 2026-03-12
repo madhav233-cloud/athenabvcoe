@@ -19,7 +19,8 @@ const Footer = () => {
 
             <div className="flex flex-col gap-2 text-sm text-muted-foreground">
               <a
-                href="https://instagram.com/"
+                href="https://www.instagram.com/athena_bvcoe?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==
+"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-primary transition-colors"
@@ -28,7 +29,7 @@ const Footer = () => {
               </a>
 
               <a
-                href="https://wa.me/"
+                href="https://chat.whatsapp.com/EenPOY646sGEZSuFUpg8Aq?mode=gi_t "
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-primary transition-colors"
@@ -37,7 +38,7 @@ const Footer = () => {
               </a>
 
               <a
-                href="https://discord.gg/"
+                href="https://discord.gg/NfZ5WD29m"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-primary transition-colors"
