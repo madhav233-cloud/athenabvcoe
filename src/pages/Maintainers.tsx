@@ -13,9 +13,9 @@ const fadeUp = {
 };
 
 const maintainers = [
-{ name: "ARYAN CHAWLA", role: "GAME LEAD" },
-{ name: "AKSHAT SHARMA", role: "GAME LEAD" },
-];
+{ name: "Marcus Johnson", role: "Lead Developer", github: "https://github.com" },
+{ name: "Alex Chen", role: "Frontend Engineer", github: "https://github.com" },
+{ name: "Priya Patel", role: "UI/UX Designer", github: "https://github.com" }];
 
 
 const Maintainers = () => {
@@ -59,15 +59,15 @@ const Maintainers = () => {
             
               <h3 className="text-foreground mb-1">{m.name}</h3>
               <p className="text-secondary font-display text-xs uppercase tracking-wider mb-4">{m.role}</p>
-              <a
-              href={m.github}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors text-sm">
+              
 
-              <Github size={16} />
-                GitHub
-              </a>
+
+
+
+
+
+
+            
             </motion.div>
           )}
         </motion.div>
