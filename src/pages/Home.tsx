@@ -125,7 +125,11 @@ const Home = () => {
             { title: "GAME DEVELOPMENT 2026", date: "COMING SOON in APRIL 2026", desc: "Showcase your game development skills at the stage" }
           ].map((event) => (
             <motion.div key={event.title} variants={fadeUp} whileHover={{ y: -4, scale: 1.02 }} className="card-surface overflow-hidden group cursor-pointer">
-              <ImagePlaceholder aspect="16/9" label="EVENT IMAGE" />
+             <img 
+  src="" 
+  alt="Event Image"
+  className="w-full aspect-video object-cover rounded-lg"
+/>
               <div className="p-5">
                 <p className="text-xs text-secondary font-display uppercase tracking-wider mb-2">{event.date}</p>
                 <h3 className="text-foreground mb-2">{event.title}</h3>
